@@ -1,0 +1,77 @@
+body{
+    background: url("images/desk1.jpg") fixed;
+    background-size: cover;
+    opacity:0.9;
+    position: absolute;
+}
+.header{
+    background-color: gainsboro;
+    opacity:0.9;
+    width:1290px;
+    height: 100px;
+    border: 2px solid darkcyan;
+    color: black;
+    font-size: 60px;
+    text-align: center;
+}
+.heading{
+    color: black;
+    font-size: 50px;
+    padding: 20px;
+    text-decoration: underline;
+}
+.data-holder{
+    background-color: gainsboro;
+    border: 2px solid darkcyan;
+    width: 450px;
+    height: 300px;
+    margin: 20px;
+    float: left;
+}
+.data-holder ul{
+    list-style-type: none;
+}
+.data-holder ul li{
+    margin: 7px;
+    font-size: 20px;
+}
+.projects-holder{
+    align-content: center;
+    width: 700px;
+    /*height: 450px;*/
+    background-color: gainsboro;
+    border: 2px solid darkcyan;
+    margin: 20px;
+    float: right;
+}
+.projects-holder ol{
+    font-size: 30px;
+    color:black;
+    margin: 20px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.projects-holder ol li{
+    margin: 20px;
+    padding: 10px;
+    text-transform: capitalize;
+}
+.projects-holder ol li a{
+    text-decoration: none;
+    color:black;
+}
+.projects-holder ol li a:hover{
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 480px) {
+
+    .header:after {
+        background: rgba(0,0,0,0.25);
+    }
+
+    body {
+        background-size: auto;
+    }
+
+}

@@ -1,0 +1,82 @@
+<div ng-controller="HomeController as hmCtrl">
+    <table width="100%">
+        <tr>
+            <td>
+                <a href="#/android" style="text-decoration: none">
+                    <div style="border: 2px solid white" class="box box1 animated slideInLeft">
+                        <span>Android Application Development</span>
+                        <br>
+                        <span class="on-hover-display1">
+                    <i class="glyphicon glyphicon-chevron-left"></i>
+                    <i class="glyphicon glyphicon-chevron-left"></i>
+                    <i class="glyphicon glyphicon-chevron-left"></i>
+                    <i class="glyphicon glyphicon-chevron-left"></i>
+                </span>
+                    </div>
+                </a>
+            </td>
+            <td>
+                <a href="#/webapp" style="text-decoration: none">
+                    <div style="border: 2px solid white" class="box box2 animated slideInRight">
+                    <span>Web Application Development
+                    <br>
+                    <span class="on-hover-display2">
+                        <i class="glyphicon glyphicon-chevron-right"></i>
+                        <i class="glyphicon glyphicon-chevron-right"></i>
+                        <i class="glyphicon glyphicon-chevron-right"></i>
+                        <i class="glyphicon glyphicon-chevron-right"></i>
+                    </span>
+                    </div>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <a href="#/portfolio" style="text-decoration: none">
+                    <div style="border: 2px solid white" class="box box3 animated slideInUp">
+                        <span>Know My Complete Portfolio</span>
+                        <br>
+                        <span class="on-hover-display3">
+                    <i class="glyphicon glyphicon-chevron-down"></i>
+                    <i class="glyphicon glyphicon-chevron-down"></i>
+                    <i class="glyphicon glyphicon-chevron-down"></i>
+                    <i class="glyphicon glyphicon-chevron-down"></i>
+                </span>
+                    </div>
+                </a>
+            </td>
+        </tr>
+    </table>
+</div>
+<style>
+    .box{
+        height: 318px;
+        width: 100%;
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+        align-self: center;
+        padding: 120px;
+        cursor: pointer;
+    }
+    .on-hover-display1{
+        display: none;
+    }
+    .box1:hover .on-hover-display1{
+        display: block;
+    }
+    .on-hover-display2{
+        display: none;
+    }
+    .box2:hover .on-hover-display2{
+        display: block;
+    }
+    .on-hover-display3{
+        display: none;
+    }
+    .box3:hover .on-hover-display3{
+        display: block;
+    }
+</style>

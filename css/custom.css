@@ -1,0 +1,115 @@
+html {
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+}
+
+body {
+    height: 100%;
+    font-family:Arial,sans-serif;
+    color:white;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+header:before {
+    content: '\A';
+    background-size: cover;
+    background: url('../img/bg3.jpg') fixed;
+    opacity: 0.2;
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    z-index:-1;
+}
+header {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: table;
+    box-sizing: border-box;
+}
+
+
+header.scrolled {
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+header > div {
+    display: table-cell;
+    vertical-align: middle;
+    margin: auto 0;
+}
+
+header > div > div h1 {
+    font-size: 7rem;
+    color: white;
+    letter-spacing: 0.1em;
+    text-shadow: 0 -1px 0 rgba(90, 153, 242, 0.6), 0 -2px 0 rgba(76, 133, 240, 0.8);
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    display: inline-block;
+    padding: 4px 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+header > div > div a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 700;
+    font-size: 5rem;
+    text-shadow: 0 1px 0 rgba(83, 135, 22, 0.3), 0 -2px 0 rgba(76, 133, 240, 0.3);
+
+}
+
+.container {
+    width: 65%;
+    height: 100vh;
+    margin: 0 auto;
+    color:white;
+    padding-top: 50px;
+    font-size: 5rem;
+}
+
+.container div {
+    margin: 40px;
+}
+
+p {
+    line-height: 1.4;
+}
+
+.container > div h1 {
+    border-top:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+    margin: 16px auto;
+    padding: 8px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 480px) {
+
+    header:after {
+        background: rgba(0,0,0,0.25);
+        background-size: auto;
+    }
+
+    header > div > div h1 {
+        font-size: 4rem;
+    }
+
+    header > div > div a {
+        display: block;
+        font-size: 3rem;
+    }
+
+    .container {
+        width: 100%;
+    }
+}
