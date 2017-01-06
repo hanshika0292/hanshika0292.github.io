@@ -1,4 +1,4 @@
-<div>
+<div class="hidden-sm hidden-xs">
     <table width="100%">
         <tr>
             <td>
@@ -48,6 +48,58 @@
         </tr>
     </table>
 </div>
+<div class="visible-sm-block visible-xs-block">
+    <table style="margin-left: -10px;margin-right: -10px">
+        <tr>
+            <td>
+                <a href="#/android" style="text-decoration: none" ng-click="countAndroidVisit();">
+                    <div style="border: 2px solid white" class="box-sm box1 animated slideInLeft">
+                        <span>Android Application Development</span>
+                        <br>
+                        <span class="on-hover-display1">
+                    <i class="glyphicon glyphicon-chevron-left"></i>
+                    <i class="glyphicon glyphicon-chevron-left"></i>
+                    <i class="glyphicon glyphicon-chevron-left"></i>
+                    <i class="glyphicon glyphicon-chevron-left"></i>
+                </span>
+                    </div>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="#/webapp" style="text-decoration: none" ng-click="countWebAppVisit();">
+                    <div style="border: 2px solid white" class="box-sm box2 animated slideInRight">
+                    <span>Web Application Development
+                    <br>
+                    <span class="on-hover-display2">
+                        <i class="glyphicon glyphicon-chevron-right"></i>
+                        <i class="glyphicon glyphicon-chevron-right"></i>
+                        <i class="glyphicon glyphicon-chevron-right"></i>
+                        <i class="glyphicon glyphicon-chevron-right"></i>
+                    </span>
+                    </div>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="#/portfolio" style="text-decoration: none" ng-click="countPortfolioVisit();">
+                    <div style="border: 2px solid white" class="box-sm box3 animated slideInUp">
+                        <span>Know My Complete Portfolio</span>
+                        <br>
+                        <span class="on-hover-display3">
+                    <i class="glyphicon glyphicon-chevron-down"></i>
+                    <i class="glyphicon glyphicon-chevron-down"></i>
+                    <i class="glyphicon glyphicon-chevron-down"></i>
+                    <i class="glyphicon glyphicon-chevron-down"></i>
+                </span>
+                    </div>
+                </a>
+            </td>
+        </tr>
+    </table>
+</div>
 <style>
     .box{
         height: 318px;
@@ -59,6 +111,17 @@
         align-content: center;
         align-self: center;
         padding: 120px;
+        cursor: pointer;
+    }
+    .box-sm{
+        height: 155px;
+        color: white;
+        font-size: 15px;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+        align-self: center;
+        padding: 50px;
         cursor: pointer;
     }
     .on-hover-display1{
