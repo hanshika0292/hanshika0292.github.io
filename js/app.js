@@ -36,6 +36,10 @@
                 controller: 'HomeController',
                 templateUrl: 'template/android.view.html',
                 controllerAs: 'vm'
+            }) .when('/bootstrap',{
+                controller: 'HomeController',
+                templateUrl: 'template/bootstrap.view.html',
+                controllerAs: 'vm'
             })
             .otherwise({ redirectTo: '/home'});
     }
