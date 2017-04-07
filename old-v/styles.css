@@ -7,12 +7,9 @@ body{
 .header{
     background-color: gainsboro;
     opacity:0.9;
-    width:1290px;
     height: 100px;
+    margin: 20px;
     border: 2px solid darkcyan;
-    color: black;
-    font-size: 60px;
-    text-align: center;
 }
 .heading{
     color: black;
@@ -24,12 +21,13 @@ body{
     background-color: gainsboro;
     border: 2px solid darkcyan;
     width: 450px;
-    height: 300px;
-    margin: 20px;
+    height: 350px;
+    margin: 25px;
     float: left;
 }
 .data-holder ul{
     list-style-type: none;
+    padding: 10px;
 }
 .data-holder ul li{
     margin: 7px;
@@ -48,12 +46,12 @@ body{
     font-size: 30px;
     color:black;
     margin: 20px;
-    padding: 10px;
+    padding: 0px;
     text-transform: uppercase;
 }
 .projects-holder ol li{
     margin: 20px;
-    padding: 10px;
+    padding: 0px;
     text-transform: capitalize;
 }
 .projects-holder ol li a{
