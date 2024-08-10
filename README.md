@@ -20,7 +20,8 @@ The purpose of these cheatsheets is to help aspiring Product Managers prepare fo
 
 ## How to Use
 
-1. Go to this link to view the html - 
+1. Go to this link to view the html for India metrics - https://hanshika0292.github.io/india-cheatsheet-metrics/
+2. Go to this link to view the html for Bangalore metrics - https://hanshika0292.github.io/bangalore-cheatsheet-metrics/
 
 Please note that while these cheatsheets provide a good starting point, it's always recommended to cross-check the data with the most recent sources, as metrics can change over time.
 
