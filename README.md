@@ -42,7 +42,7 @@ The information provided in these cheatsheets is for general informational purpo
 
 Hanshika Gupta - Product Manager with 4+ years and a total of 9+ years of experience in the Consumer and SaaS space. Former Data Scientist at BCG and Software Engineer. 
 
-Learn more about me(https://hanshika.notion.site/Hanshika-Gupta-ebdf70e7d8d34c0193e6622a8f99c538?pvs=32)
+[Learn more about me](https://hanshika.notion.site/Hanshika-Gupta-ebdf70e7d8d34c0193e6622a8f99c538?pvs=32)
 
 ---
 
